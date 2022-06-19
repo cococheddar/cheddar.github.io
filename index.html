@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Todo</title>
+</head>
+<body>
+    <div id="login" class="container">
+        <h1>이름을 써보아요!</h1>
+        <form id="login-form">
+            <input id= "name" required maxlength="15" type="text" placeholder="what is your name?">
+            <input type="submit" value="login" class="submit-btn">
+        </form>
+    </div>
+    <div id="content" class="container hidden" >
+        <h3 id="greeting"></h3>
+        <span id="clock">00:00</span>
+        <div id="weather">
+            <span></span>
+            <span></span>
+        </div>          
+        <hr>
+        <div id="todolist-box">
+            <h2 class="title text-center">TO DO LIST</h2>
+            <form action="" id="todo-form">
+                <input type="text" placeholder="할 일을 써봅시다" class="text-input">
+                <input type="submit" value="저장" class="submit-btn">
+            </form>
+            <ul id="todo-list">
+    
+            </ul>        
+        </div>
+    </div>
+    <!-- xptmxm -->
+        <script src="js/todo.js"></script>
+</body>
+</html>

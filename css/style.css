@@ -1,0 +1,131 @@
+*{padding:0px; margin:0px; list-style: none;}
+@font-face {
+    font-family: 'EarlyFontDiary';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_220508@1.0/EarlyFontDiary.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.hidden{
+    display: none;
+}
+.text-center{
+    text-align: center;
+}
+
+.submit-btn{
+    border: none;
+    font-size: 1em;
+    padding: 16px 59px;
+    background: #58ae7a;
+    color: #fff;
+    border-radius: 7px;
+}
+
+body{
+    font-family: 'EarlyFontDiary';
+}
+
+img {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: -100;
+  }
+
+  hr{
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+.hidden{
+    display: none;
+}
+.text-left{
+    text-align: left;
+}
+
+#content{
+    width: 611px;
+    height: 687px;
+    overflow: auto;
+    border: solid 1px #ddd;
+    background: #fff;
+}
+#todolist-box{
+    padding: 1.2em;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#login h1{
+    font-size: 6em;
+    margin-bottom: 1em;
+}
+
+input#name {
+    font-size: 2em;
+    background: none;
+    padding : 10px;
+    border: none;
+    border-bottom: solid 1px  #ffffff55;
+
+    
+}
+input#name:focus{
+    outline:none;
+    border-bottom: solid 1px #fff;
+}
+
+#todo-form{
+    margin: 1.2em 0;    
+}
+#todo-form input.text-input{
+    padding: 10px;
+    border: solid 1px #408a9b;
+    width: 80%;
+}
+#todo-form input.text-input:focus{
+    outline:none;
+    border: solid 1px hsl(207, 100%, 54%);
+}
+#todo-form input.submit-btn{
+    width: 13%;
+    padding: 10px;
+}
+#greeting{
+    text-align: left;
+    font-size: 1em;
+    padding: 9px;
+}  
+
+#clock, #weather{
+    position: absolute;
+    right: 3%;
+    top: 9px;
+    font-size: 1em;
+}
+#weather{
+    right: 13%;
+}
+
+.title{
+    font-size: 2.3em;
+    padding: 0.4em;
+}
+
+ul#todo-list li{
+    margin-bottom: 7px;
+    font-size: 1.4em;
+}
+
+ul#todo-list li button{
+    position: absolute;
+    right: 18%;
+}
